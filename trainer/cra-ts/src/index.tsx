@@ -16,8 +16,10 @@ import Rating from './m50-component-props/comp-props';
 // m50-component-props
 import reportWebVitals from './reportWebVitals';
 
+// m60-class-component
+import { MyClassComponent, MyClassComponentWithProps, MyClassComponentWithState } from './m60-class-component/classcomponents';
 // LABS
-import { TodosComponentAsFunction } from './todos-module/todos';
+import { TodosComponentAsFunction, TodosAsClass, TodosTable } from './todos-module/todos';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -52,8 +54,15 @@ ReactDOM.render(
     {/* <Rating stars={5} prop='besonderes Rating'/> */}
     <Rating stars={5}/>
 
+    {/* m60-class-component */}
+    <MyClassComponent />
+    <MyClassComponentWithProps propsKey='propsKeyValue'/>
+    <MyClassComponentWithState />
+
     <h2>LABS</h2>
     <TodosComponentAsFunction />
+    <TodosAsClass />
+    <TodosTable />
   </React.StrictMode>,
   document.getElementById('root')
 );

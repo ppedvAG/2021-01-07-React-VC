@@ -42,17 +42,19 @@
 - [x] Folien: components, props
 - [x] Demo: [comp-props](./cra-ts/src/m50-component-props/comp-props.tsx)
 - [ ] Lab: Todo (nicht fertig noch)
-- [ ] [Commit]()
+- [ ] Commit: [m50 to be continued](https://github.com/ppedvAG/2021-01-07-React-VC/commit/ef153c998115603f53aa5ee48efbde5f26ad83be)
 
 Lab: ein Todo rendern, die Komponente Rating einpflegen
 
 ## M60 | COMPONENTS AND STATE
 
-- [ ] class components
-- [ ] constructor
-- [ ] state
+- [ ] Folien: class components, constructor, state
+- [ ] Demo: [class components](cra-ts/src/m60-class-component/classcomponents.tsx)
+- [ ] Lab: [todos Table](cra-ts/src/todos-module/todos.tsx)
+- [ ] Commit: []
 - [ ] use state hook
-- [ ] components in state
+
+
 <!-- 
 ## M | JSX CONTINUED
 
@@ -75,6 +77,7 @@ Lab: ein Todo rendern, die Komponente Rating einpflegen
 
 - [ ] props.children
 - [ ] components as props
+- [ ] components in state
 - [ ] lifting state up
 - [ ] specialization
 
