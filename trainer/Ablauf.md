@@ -28,14 +28,16 @@
 - [x] Folien: TS > Intro
 - [x] Folien: React > jsx/tsx intro
 - [x] Folien: Debugging react devtoos for chrome
-- [ ] [Commit]()
+- [x] [Commit](https://github.com/ppedvAG/2021-01-07-React-VC/commit/f31f6ea53f098c11798e56c1e264b1ee01e487ea)
 - [ ] emmet
 
+## M40 | REACT ELEMENTS
+
+- [x] Folien: keine
+- [x] Demo: [ReactVsJSXEl](./cra-ts/src/m40-react-jsx-el/react-vs-jsx-el.tsx)
+- [x] [Commit]
+
 <!-- 
-## M | REACT ELEMENTS
-
-- [ ] elements
-
 ## M | FUNCTION COMPONENTS AND PROPS
 
 - [ ] components

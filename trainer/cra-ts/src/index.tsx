@@ -3,18 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // mm20-app-default
 // import App from './m20-app-default/App';
+
 // m30-tsx-intro
-import Tsx from './workmodule/tsx-intro';
-import { TsxManyElements } from './workmodule/tsx-intro';
-import * as ComponentsObject from './workmodule/many-components';
+// import Tsx from './m30-tsx-intro/tsx-intro';
+// import { TsxManyElements } from './m30-tsx-intro/tsx-intro';
+// import * as ComponentsObject from './m30-tsx-intro/many-components';
+
+// m40-react-jsx-el
+import ReactVsJSXEl from './m40-react-jsx-el/react-vs-jsx-el';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* m20-app-default */}
     {/* <App /> */}
+
     {/* m30-tsx-intro */}
-    <Tsx />
+    {/* <Tsx />
     <TsxManyElements />
     <pre>
       Bemerkung 0: mehrere Export können mit '* as _objektName_' importiert werden
@@ -26,7 +32,10 @@ ReactDOM.render(
       Bemerkung 3: JSX-pre ignoriert eigene Leerzeichen im Unterschied zu HTML-pre
     </pre>
     <ComponentsObject.Component1 />
-    <ComponentsObject.Component2 />
+    <ComponentsObject.Component2 /> */}
+
+    {/* m40-react-jsx-el */}
+    <ReactVsJSXEl />
   </React.StrictMode>,
   document.getElementById('root')
 );
