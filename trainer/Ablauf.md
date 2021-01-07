@@ -11,17 +11,19 @@
 
 ## M10 | GETTING STARTED
 
-- [x] Folien: react getting started
-- [ ] Folien: nodejs getting started
-- [ ] Folien: npx, npm, yarn
-- [ ] Demo
-- [ ] [Commit]()
+- [x] Folien: react > getting started
+- [x] Demo: [helloreact.html](helloreact.html)
+- [x] [Commit](https://github.com/ppedvAG/2021-01-07-React-VC/commit/90c94fecd193a2a0543d7bb52a9ac767c2deec98)
 
-<!-- 
 ## M | REACT PROJECT
 
-- [ ] react ecosystem
+- [x] Folien: nodejs getting started
+- [x] Folien: npx, npm, yarn
+- [x] Demo: [cra-ts](cra-ts/src/App.tsx)
+- [x] react ecosystem
+- [ ] [commit]()
 
+<!-- 
 ## M | JSX INTRO
 
 - [ ] jsx/tsx intro
