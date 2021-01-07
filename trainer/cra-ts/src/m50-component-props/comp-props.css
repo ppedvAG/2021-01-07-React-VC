@@ -1,0 +1,10 @@
+/* #stars {
+    font-style: monospace;
+    color: gold;
+    font-size: 2em;
+    font-weight: bold;
+} */
+/* 
+pre
+Die Stile für einzelne Komponenten kann man auch über die globale CSS-Datei (index.css) zuweisen.
+*/

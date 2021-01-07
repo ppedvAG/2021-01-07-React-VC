@@ -12,3 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#stars {
+  font-style: monospace;
+  color: gold;
+  font-size: 2em;
+  font-weight: bold;
+}

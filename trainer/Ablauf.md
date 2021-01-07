@@ -35,29 +35,32 @@
 
 - [x] Folien: keine
 - [x] Demo: [ReactVsJSXEl](./cra-ts/src/m40-react-jsx-el/react-vs-jsx-el.tsx)
-- [x] [Commit]
+- [x] [Commit](https://github.com/ppedvAG/2021-01-07-React-VC/commit/e01ff8d76f24b160a0aced92c49a2a0daaeefd18)
 
-<!-- 
-## M | FUNCTION COMPONENTS AND PROPS
+## M50 | FUNCTION COMPONENTS AND PROPS
 
-- [ ] components
-- [ ] props
-- [ ] props.children
-- [ ] components as props
+- [x] Folien: components, props
+- [x] Demo: [comp-props](./cra-ts/src/m50-component-props/comp-props.tsx)
+- [ ] Lab: Todo (nicht fertig noch)
+- [ ] [Commit]()
 
-## M | JSX CONTINUED
+Lab: ein Todo rendern, die Komponente Rating einpflegen
 
-- [ ] attributes
-- [ ] conditionals
-- [ ] iterating elements
-
-## M | COMPONENTS AND STATE
+## M60 | COMPONENTS AND STATE
 
 - [ ] class components
 - [ ] constructor
 - [ ] state
 - [ ] use state hook
 - [ ] components in state
+<!-- 
+## M | JSX CONTINUED
+
+- [ ] attributes
+- [ ] conditionals
+- [ ] iterating elements
+
+
 
 ## M | REACT & FORMS
 
@@ -70,6 +73,8 @@
 
 ## M | COMPONENTS COMMUNICATION
 
+- [ ] props.children
+- [ ] components as props
 - [ ] lifting state up
 - [ ] specialization
 
