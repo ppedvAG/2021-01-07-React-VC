@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.1/umd/react.production.min.js" integrity="sha512-YMtLFKDKe5a4zi7rJ0y4wdGErKZe3tx7L+AXDTxjNDzkv7jsaNhvumeU1xQvw6UqVwBVmYlO9NhsSuSVPUN/xQ==" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.1/umd/react-dom.production.min.js" integrity="sha512-vN6rbu+vWW4Ck3s6RbLZs+0gRl5PWOZRUqap38gZtsheSqA2zDeI3PCshuxfYx7ytkoFMrmd0gA2sZZeP1RZYQ==" crossorigin="anonymous"></script> -->
+    <style>
+        .big_red {
+            font-size: 2em;
+            color: red;
+        }
+    </style>
+    <title>hello react</title>
+</head>
+<body>
+    <h1>Hello React</h1>
+    <div id="root"></div>
+    <h2>React Entry Point nr 2</h2>
+    <pre>
+Mehrere Entry Points für React möglich.        
+    </pre>
+    <div id="root2"></div>
+    <script>
+        const el = React.createElement('p', {class: 'big_red'}, 'paragraph im react-Root')
+        console.log('el', el)
+        ReactDOM.render(el, document.getElementById('root'))
+        const el2 = React.createElement('span', {}, 'ein React-Span-Element')
+        ReactDOM.render(el2, document.getElementById('root2'))
+    </script>
+    
+</body>
+</html>
