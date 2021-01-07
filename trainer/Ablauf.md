@@ -15,20 +15,23 @@
 - [x] Demo: [helloreact.html](helloreact.html)
 - [x] [Commit](https://github.com/ppedvAG/2021-01-07-React-VC/commit/90c94fecd193a2a0543d7bb52a9ac767c2deec98)
 
-## M | REACT PROJECT
+## M20 | REACT PROJECT
 
 - [x] Folien: nodejs getting started
 - [x] Folien: npx, npm, yarn
 - [x] Demo: [cra-ts](cra-ts/src/App.tsx)
 - [x] react ecosystem
-- [ ] [commit]()
+- [x] [commit](https://github.com/ppedvAG/2021-01-07-React-VC/commit/56c94f86f304fdf38749483f23226938d3e79ed8)
 
-<!-- 
-## M | JSX INTRO
+## M30 | JSX/TSX INTRO
 
-- [ ] jsx/tsx intro
+- [x] Folien: TS > Intro
+- [x] Folien: React > jsx/tsx intro
+- [x] Folien: Debugging react devtoos for chrome
+- [ ] [Commit]()
 - [ ] emmet
 
+<!-- 
 ## M | REACT ELEMENTS
 
 - [ ] elements
