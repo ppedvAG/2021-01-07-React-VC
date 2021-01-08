@@ -55,17 +55,21 @@ Lab: ein Todo rendern, die Komponente Rating einpflegen
 
 ## M70 | JSX CONTINUED
 
-- [ ] Folien: attributes
-- [ ] conditionals
-- [ ] iterating elements, keys
-- [ ] Commit: [m70 done]
+- [x] Folien: attributes
+- [x] conditionals
+- [x] iterating elements, keys
+- [ ] Demo: 
+- [x] Commit: [m70 done](https://github.com/ppedvAG/2021-01-07-React-VC/commit/df527eb2aab02c9328b226439f91f3e238c8c91b)
 
+## M80 | COMPONENTS LIFECYCLE
 
+- [ ] Folien: React > Lifecycle
+- [ ] Folien: React > Hooks
+- [ ] Demo: [hooks](cra-ts/src/m80-hooks/hooks.tsx)
+- [ ] Commit: [m80 done]()
 
 
 <!-- 
-
-
 
 ## M | REACT & FORMS
 

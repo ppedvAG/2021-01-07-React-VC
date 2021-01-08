@@ -18,8 +18,12 @@ import reportWebVitals from './reportWebVitals';
 
 // m60-class-component
 import { MyClassComponent, MyClassComponentWithProps, MyClassComponentWithState } from './m60-class-component/classcomponents';
+
 // LABS
 import { TodosComponentAsFunction, TodosAsClass, TodosTable } from './todos-module/todos';
+
+// m80-hooks
+import { UseEffectDemo, UseStateDemo } from './m80-hooks/hooks';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -55,17 +59,35 @@ ReactDOM.render(
     <Rating stars={5}/>
 
     {/* m60-class-component */}
-    <MyClassComponent />
+    {/* <MyClassComponent />
     <MyClassComponentWithProps propsKey='propsKeyValue'/>
-    <MyClassComponentWithState />
+    <MyClassComponentWithState /> */}
+
+    {/* m80-hooks */}
+    <UseStateDemo />
+    <UseEffectDemo />
 
     <h2>LABS</h2>
     <TodosComponentAsFunction />
     <TodosAsClass />
     <TodosTable />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+let useEffectDiv = document.getElementById('useEffectDiv')
+ReactDOM.render(<React.StrictMode>
+      <UseEffectDemo />
+</React.StrictMode>, useEffectDiv)
+
+function unmount() {
+
+  ReactDOM.unmountComponentAtNode(useEffectDiv as Element)
+}
+
+setTimeout(unmount, 2000)
+// todo #2
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
