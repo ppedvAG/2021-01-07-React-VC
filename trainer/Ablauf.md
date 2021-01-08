@@ -51,16 +51,19 @@ Lab: ein Todo rendern, die Komponente Rating einpflegen
 - [ ] Folien: class components, constructor, state
 - [ ] Demo: [class components](cra-ts/src/m60-class-component/classcomponents.tsx)
 - [ ] Lab: [todos Table](cra-ts/src/todos-module/todos.tsx)
-- [ ] Commit: []
-- [ ] use state hook
+- [ ] Commit: [m60 done](https://github.com/ppedvAG/2021-01-07-React-VC/commit/f9c7d231554b9d148feb37b0e09950cd55006e96)
+
+## M70 | JSX CONTINUED
+
+- [ ] Folien: attributes
+- [ ] conditionals
+- [ ] iterating elements, keys
+- [ ] Commit: [m70 done]
+
+
 
 
 <!-- 
-## M | JSX CONTINUED
-
-- [ ] attributes
-- [ ] conditionals
-- [ ] iterating elements
 
 
 
@@ -71,6 +74,7 @@ Lab: ein Todo rendern, die Komponente Rating einpflegen
 ## M | COMPONENTS LIFECYCLE
 
 - [ ] lifecycle methods
+- [ ] use state hook
 - [ ] use effect hook
 
 ## M | COMPONENTS COMMUNICATION

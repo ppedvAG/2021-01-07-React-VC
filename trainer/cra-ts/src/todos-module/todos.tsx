@@ -114,7 +114,7 @@ export class TodosTable extends Component<any, any> {
                     </thead>
                     <tbody>
                         {this.state.todos.map((item: Todo) =>
-                            <tr>
+                            <tr key={item.id}>
                                 <td>{item.userId}</td>
                                 <td>{item.id}</td>
                                 <td>{item.title}</td>
