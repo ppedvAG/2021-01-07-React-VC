@@ -7,9 +7,10 @@
 // import * as ComponentsObject from '../m30-tsx-intro/many-components';
 
 // m40-react-jsx-el
-// import ReactVsJSXEl from '../m40-react-jsx-el/react-vs-jsx-el';
+import ReactVsJSXEl from '../m40-react-jsx-el/react-vs-jsx-el';
 
 // m50-component-props
+import React from 'react';
 import Rating from '../m50-component-props/comp-props';
 
 
@@ -19,18 +20,21 @@ import Rating from '../m50-component-props/comp-props';
 // m80-hooks
 // import { UseEffectDemo, UseStateDemo } from '../m80-hooks/hooks';
 
-import { InputDemo } from '../m90-forms/forms';
+// import { InputDemo } from '../m90-forms/forms';
+
+// m110
+import WrapComponent from '../m110-comp-composition/props-children'
 
 export default function Demos() {
-    return (
-        <>
-            <h2>Demos works</h2>
-            <h2>DEMOS</h2>
-    {/* m20-app-default */}
-    {/* <App /> */}
+  return (
+    <>
+      <h2>Demos works</h2>
+      <h2>DEMOS</h2>
+      {/* m20-app-default */}
+      {/* <App /> */}
 
-    {/* m30-tsx-intro */}
-    {/* <Tsx />
+      {/* m30-tsx-intro */}
+      {/* <Tsx />
     <TsxManyElements />
     <pre>
       Bemerkung 0: mehrere Export können mit '* as _objektName_' importiert werden
@@ -44,27 +48,30 @@ export default function Demos() {
     <ComponentsObject.Component1 />
     <ComponentsObject.Component2 /> */}
 
-    {/* m40-react-jsx-el */}
-    {/* <ReactVsJSXEl /> */}
+      {/* m40-react-jsx-el */}
+      <ReactVsJSXEl />
 
-    {/* m50-component-props */}
-    <pre>
-      bei den Komponenten dürfen nur Attribute verwendet werden, die im Objekt 'IntrinsicAttributes' erwähnt sind
-      und IntrinsicAttributes ist äquivalent zum Objekt props. Props wird gebaut anhand von diesen Attributes.
+      {/* m50-component-props */}
+      <pre>
+        bei den Komponenten dürfen nur Attribute verwendet werden, die im Objekt 'IntrinsicAttributes' erwähnt sind
+        und IntrinsicAttributes ist äquivalent zum Objekt props. Props wird gebaut anhand von diesen Attributes.
     </pre>
-    {/* <Rating stars={5} prop='besonderes Rating'/> */}
-    <Rating stars={5} />
+      {/* <Rating stars={5} prop='besonderes Rating'/> */}
+      <Rating stars={5} />
 
-    {/* m60-class-component */}
-    {/* <MyClassComponent />
+      {/* m60-class-component */}
+      {/* <MyClassComponent />
     <MyClassComponentWithProps propsKey='propsKeyValue'/>
     <MyClassComponentWithState /> */}
 
-    {/* m80-hooks */}
-    {/* <UseStateDemo /> */}
+      {/* m80-hooks */}
+      {/* <UseStateDemo /> */}
 
-    {/* m90-forms */}
-    {/* <InputDemo /> */}
-        </>
-    )
+      {/* m90-forms */}
+      {/* <InputDemo /> */}
+
+      {/* m110-composition */}
+      <WrapComponent />
+    </>
+  )
 }

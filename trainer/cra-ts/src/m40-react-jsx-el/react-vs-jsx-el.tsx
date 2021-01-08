@@ -2,7 +2,7 @@ import React, { DetailedReactHTMLElement } from 'react'
 
 export default function ReactVsJSXEl() {
     // react el
-    let reactEl = React.createElement('div', { id: 'divId' }, 'text in div')
+    let reactEl = React.createElement('div', { id: 'divId' }, <div>'text in div'</div>)
     let reactElProps = Object.entries(reactEl)
     console.log('reactElProps', reactElProps)
     console.log('reactEl', reactEl)
@@ -28,6 +28,7 @@ export default function ReactVsJSXEl() {
 
     return (
         <>
+        <h2>React Vs JSX Element</h2>
             <div>React Element: {reactEl}</div>
             <div>JSX Element: {jsxEl}</div>
             <pre>

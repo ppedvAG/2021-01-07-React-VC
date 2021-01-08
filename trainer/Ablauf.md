@@ -75,22 +75,25 @@ Lab: ein Todo rendern, die Komponente Rating einpflegen
 - [x] Lab: [pw confirm](cra-ts/src/todo-module/pw-confirm.tsx)
 - [x] Commit: [m90 done](https://github.com/ppedvAG/2021-01-07-React-VC/commit/da1b3b9c7957ae03b032cd444351a53029e1eb0a)
 
-## M | ROUTING
+## M100 | ROUTING
 
 - [x] Folien: React > Router
 - [x] Demo: [app with routing](cra-ts/src/m100-routing/app-with-routing.tsx)
 - [ ] Lab:
-- [x] Commit: [m100 done]()
+- [x] Commit: [m100 done](https://github.com/ppedvAG/2021-01-07-React-VC/commit/986fca24ae0526288c5045be9327f0c8115925b0)
 
-<!-- 
+## M110 | COMPOSED COMPONENTS
 
-## M | COMPONENTS COMMUNICATION
-
-- [ ] props.children
+- [ ] Folien: React > Composed Components
+- [ ] Demo: [props.children](cra-ts/src/m110-comp-composition/props-children.tsx)
+- [ ] Lab: props.children: Klassen über props und props.children ermitteln
+- [ ] Commit: 
 - [ ] components as props
 - [ ] components in state
 - [ ] lifting state up
 - [ ] specialization
+
+<!-- 
 
 ## M | SSR
 
