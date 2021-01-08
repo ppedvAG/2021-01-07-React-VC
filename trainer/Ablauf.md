@@ -63,23 +63,21 @@ Lab: ein Todo rendern, die Komponente Rating einpflegen
 
 ## M80 | COMPONENTS LIFECYCLE
 
-- [ ] Folien: React > Lifecycle
-- [ ] Folien: React > Hooks
-- [ ] Demo: [hooks](cra-ts/src/m80-hooks/hooks.tsx)
-- [ ] Commit: [m80 done]()
+- [x] Folien: React > Lifecycle
+- [x] Folien: React > Hooks
+- [x] Demo: [hooks](cra-ts/src/m80-hooks/hooks.tsx)
+- [x] Commit: [m80 done](https://github.com/ppedvAG/2021-01-07-React-VC/commit/4858d79df45d82d9106ba5d3fa1ea2f2e0f6f957)
 
+## M90 | REACT & FORMS
+
+- [x] Folien: React > forms
+- [x] Demo: [forms](cra-ts/src/m90-forms/forms.tsx)
+- [x] Lab: [pw confirm](cra-ts/src/todo-module/pw-confirm.tsx)
+- [x] Commit: [m90 done]()
 
 <!-- 
 
-## M | REACT & FORMS
-
-- [ ] forms
-
-## M | COMPONENTS LIFECYCLE
-
-- [ ] lifecycle methods
-- [ ] use state hook
-- [ ] use effect hook
+## M | ROUTING
 
 ## M | COMPONENTS COMMUNICATION
 

@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import reportWebVitals from './reportWebVitals';
+
 import Rating from './m50-component-props/comp-props';
+import { InputDemo } from './m90-forms/forms';
 // mm20-app-default
 // import App from './m20-app-default/App';
 
@@ -14,16 +17,16 @@ import Rating from './m50-component-props/comp-props';
 // import ReactVsJSXEl from './m40-react-jsx-el/react-vs-jsx-el';
 
 // m50-component-props
-import reportWebVitals from './reportWebVitals';
+
 
 // m60-class-component
-import { MyClassComponent, MyClassComponentWithProps, MyClassComponentWithState } from './m60-class-component/classcomponents';
+// import { MyClassComponent, MyClassComponentWithProps, MyClassComponentWithState } from './m60-class-component/classcomponents';
 
 // LABS
-import { TodosComponentAsFunction, TodosAsClass, TodosTable } from './todos-module/todos';
+// import { TodosComponentAsFunction, TodosAsClass, TodosTable } from './todos-module/todos';
 
 // m80-hooks
-import { UseEffectDemo, UseStateDemo } from './m80-hooks/hooks';
+// import { UseEffectDemo, UseStateDemo } from './m80-hooks/hooks';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -64,29 +67,32 @@ ReactDOM.render(
     <MyClassComponentWithState /> */}
 
     {/* m80-hooks */}
-    <UseStateDemo />
-    <UseEffectDemo />
+    {/* <UseStateDemo /> */}
+
+    {/* m90-forms */}
+    <InputDemo />
 
     <h2>LABS</h2>
-    <TodosComponentAsFunction />
+    {/* <TodosComponentAsFunction />
     <TodosAsClass />
-    <TodosTable />
+    <TodosTable /> */}
 
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-let useEffectDiv = document.getElementById('useEffectDiv')
-ReactDOM.render(<React.StrictMode>
-      <UseEffectDemo />
-</React.StrictMode>, useEffectDiv)
+// m80-hooks
+// let useEffectDiv = document.getElementById('useEffectDiv')
+// ReactDOM.render(<React.StrictMode>
+//       <UseEffectDemo />
+// </React.StrictMode>, useEffectDiv)
 
-function unmount() {
+// function unmount() {
 
-  ReactDOM.unmountComponentAtNode(useEffectDiv as Element)
-}
+//   ReactDOM.unmountComponentAtNode(useEffectDiv as Element)
+// }
 
-setTimeout(unmount, 2000)
+// setTimeout(unmount, 2000)
 // todo #2
 
 // If you want to start measuring performance in your app, pass a function
