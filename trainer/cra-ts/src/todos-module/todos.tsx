@@ -118,7 +118,9 @@ export class TodosTable extends Component<any, any> {
                                 <td>{item.userId}</td>
                                 <td>{item.id}</td>
                                 <td>{item.title}</td>
-                                <td>{item.completed.toString()}</td>
+                                <td>
+                                    <input type="text" value={item.completed.toString()}/>
+                                </td>
                             </tr>
                         )}
                         <tr><td>{/* {this.state.todos[1].toString()} */}
@@ -145,3 +147,5 @@ export class TodosTable extends Component<any, any> {
         )
     }
 }
+
+

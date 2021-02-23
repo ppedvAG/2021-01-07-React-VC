@@ -7,7 +7,7 @@
 // import * as ComponentsObject from '../m30-tsx-intro/many-components';
 
 // m40-react-jsx-el
-import ReactVsJSXEl from '../m40-react-jsx-el/react-vs-jsx-el';
+// import ReactVsJSXEl from '../m40-react-jsx-el/react-vs-jsx-el';
 
 // m50-component-props
 import React from 'react';
@@ -23,7 +23,13 @@ import Rating from '../m50-component-props/comp-props';
 // import { InputDemo } from '../m90-forms/forms';
 
 // m110
-import WrapComponent from '../m110-comp-composition/props-children'
+// import WrapComponent from '../m110-comp-composition/props-children'
+import Board from '../m110-comp-composition/lifting-state-up';
+
+// m120
+import ReduxDemo from '../m120-redux/redux-demo';
+import Provider from 'react-redux'
+
 
 export default function Demos() {
   return (
@@ -49,7 +55,7 @@ export default function Demos() {
     <ComponentsObject.Component2 /> */}
 
       {/* m40-react-jsx-el */}
-      <ReactVsJSXEl />
+      {/* <ReactVsJSXEl /> */}
 
       {/* m50-component-props */}
       <pre>
@@ -71,7 +77,14 @@ export default function Demos() {
       {/* <InputDemo /> */}
 
       {/* m110-composition */}
-      <WrapComponent />
+      {/* <WrapComponent /> */}
+      {/* <Board /> */}
+
+      {/* m120-redux */}
+      <Provider>
+        <ReduxDemo />
+
+      </Provider>
     </>
   )
 }

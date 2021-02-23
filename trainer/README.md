@@ -84,25 +84,27 @@ Lab: ein Todo rendern, die Komponente Rating einpflegen
 
 ## M110 | COMPOSED COMPONENTS
 
-- [ ] Folien: React > Composed Components
-- [ ] Demo: [props.children](cra-ts/src/m110-comp-composition/props-children.tsx)
-- [ ] Lab: props.children: Klassen über props und props.children ermitteln
-- [ ] Commit: 
+- [x] Folien: React > Composed Components
+- [x] Demo: [props.children](cra-ts/src/m110-comp-composition/props-children.tsx)
+- [x] Lab: props.children: Klassen über props und props.children ermitteln
+- [x] Commit: [m110 props.children done](https://github.com/ppedvAG/2021-01-07-React-VC/commit/5ba08a54945ef6992e3f5471db60b72b10b557a5)
+- [ ] Demo: lifting state up
+- [ ] Lab: tr in TodosTable zu TRComponent
 - [ ] components as props
 - [ ] components in state
-- [ ] lifting state up
 - [ ] specialization
 
-<!-- 
+## M120 | REDUX
 
-## M | SSR
+- [ ] Folien: Redux > Intro
+- [ ] Folien: react-redux
+- [ ] Demo: 
+- [ ] Commit: 
+
+## M130 | SSR
 
 - [ ] ssr vs csr
 - [ ] react & ssr
 
-## M | REDUX
-
-- [ ] redux
-- [ ] react-redux
-
+<!-- 
  -->
